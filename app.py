@@ -1,5 +1,11 @@
 import streamlit as st
 
+import os
+print(f"Current working directory: {os.getcwd()}")
+
+
+st.set_page_config(layout="wide") # Optional: Configure your page settings
+
 st.write("Record thinking process")
 
 
